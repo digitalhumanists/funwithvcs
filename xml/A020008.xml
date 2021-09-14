@@ -1,0 +1,201 @@
+
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1" xml:id="A020008"> 
+   <meiHead> 
+      <altId n="2" type="WeV B">B.2</altId> 
+      <altId type="JV">58</altId> 
+      <altId type="gnd">1048691977</altId> 
+      <fileDesc> 
+         <titleStmt xml:id="titleStmt"> 
+            <title>Der erste Ton</title> 
+            <respStmt> 
+               <persName role="cmp" auth.uri="https://weber-gesamtausgabe.de/" codedval="A002068">Weber, Carl Maria von</persName> 
+               <persName role="dte" auth.uri="https://weber-gesamtausgabe.de/" codedval="A000354">Danzi, Franz</persName> 
+               <persName role="lbt" auth.uri="https://weber-gesamtausgabe.de/" codedval="A001590">Rochlitz, Friedrich</persName> 
+            </respStmt> 
+         </titleStmt> 
+         <pubStmt>
+            <identifier type="WeGA" auth.uri="https://weber-gesamtausgabe.de/">A020008</identifier>
+            <distributor>Carl-Maria-von-Weber-Gesamtausgabe</distributor> 
+            <respStmt n="WeGA"> 
+               <persName role="edt">Veit, Joachim</persName> 
+            </respStmt> 
+            <address> 
+               <addrLine>Hornsche Str. 39</addrLine> 
+               <addrLine>32756</addrLine> 
+               <addrLine>Detmold</addrLine> 
+               <addrLine>Germany</addrLine> 
+            </address> 
+            <availability> 
+               <useRestrict>This work is available under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.</useRestrict> 
+            </availability> 
+         </pubStmt> 
+         <seriesStmt n="WeGA"> 
+            <title level="s" n="2">Kantaten, Huldigungsmusiken und andere Gelegenheitswerke</title> 
+            <title level="a" n="1">Der erste Ton. Melodramatische Kantate<lb/>Hymne <rend rend="quotedbl">In seiner Ordnung schafft der Herr</rend></title> 
+         </seriesStmt> 
+      </fileDesc> 
+      <workList> 
+         <work> 
+            <title/> 
+            <incip> 
+               <score> 
+                  <scoreDef key.pname="e" key.accid="f" key.mode="major"> 
+                     <staffGrp> 
+                        <staffGrp n="1"> 
+                           <staffDef n="1" lines="5">
+                              <labelAbbr>2 Fl</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="2" lines="5">
+                              <labelAbbr>2 Ob</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="3" lines="5">
+                              <labelAbbr>2 Cl</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="4" lines="5">
+                              <labelAbbr>2 Cor</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="5" lines="5">
+                              <labelAbbr>2 Fg</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="6" lines="5">
+                              <labelAbbr>2 Tr</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="7" lines="5">
+                              <labelAbbr>Timp</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="8" lines="5">
+                              <labelAbbr>2 Vl</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="9" lines="5">
+                              <labelAbbr>Vla</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="10" lines="5">
+                              <labelAbbr>Vc</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="11" lines="5">
+                              <labelAbbr>Cb</labelAbbr>
+                           </staffDef> 
+                        </staffGrp> 
+                        <staffGrp n="2"> 
+                           <staffDef n="12" lines="5">
+                              <labelAbbr>S</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="13" lines="5">
+                              <labelAbbr>A</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="14" lines="5">
+                              <labelAbbr>T</labelAbbr>
+                           </staffDef> 
+                           <staffDef n="15" lines="5">
+                              <labelAbbr>B</labelAbbr>
+                           </staffDef> 
+                        </staffGrp> 
+                     </staffGrp> 
+                  </scoreDef> 
+                  <section/> 
+               </score> 
+            </incip> 
+            <history> 
+               <p>Vollendet am <date isodate="1808-03-20">20. März 1808</date>.</p> 
+               <p>Nachkomponierte 2. Fassung des Schlußchors vom <date notbefore="1810-09-01" notafter="1810-09-30">September 1810</date>; nachträglich geänderte Stimmen: Alt- und Tenor-Posaune.</p> 
+            </history> 
+            <perfMedium> 
+               <perfResList> 
+                  <perfResList> 
+                     <perfRes count="2" label="wa">2 Fl</perfRes> 
+                     <perfRes count="2" label="wb">2 Ob</perfRes> 
+                     <perfRes count="2" label="wc">2 Cl</perfRes> 
+                     <perfRes count="2" label="ba">2 Cor</perfRes> 
+                     <perfRes count="2" label="wd">2 Fg</perfRes> 
+                     <perfRes count="2" label="bb">2 Tr</perfRes> 
+                     <perfRes>Timp</perfRes> 
+                     <perfRes count="2">2 Vl</perfRes> 
+                     <perfRes>Vla</perfRes> 
+                     <perfRes>Vc</perfRes> 
+                     <perfRes>Cb</perfRes> 
+                  </perfResList> 
+                  <perfResList> 
+                     <perfRes>S</perfRes> 
+                     <perfRes>A</perfRes> 
+                     <perfRes>T</perfRes> 
+                     <perfRes>B</perfRes> 
+                  </perfResList> 
+               </perfResList> 
+            </perfMedium> 
+            <classification> 
+               <termList> 
+                  <term class="http://d-nb.info/standards/elementset/gnd#MusicalWork"/> 
+               </termList> 
+            </classification> 
+         </work> 
+      </workList> 
+      <revisionDesc>
+         <change>
+            <respStmt>
+               <persName>Peter Stadler</persName>
+            </respStmt>
+            <changeDesc>
+               <p>Automatische Transformation von MEI3 zu MEI4</p>
+            </changeDesc>
+            <date isodate="2020-03-26"/>
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName auth.uri="https://weber-gesamtausgabe.de/" codedval="A009001">Peter Stadler</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Automatically added classcodes for (musical) works and updated address and licensing information</p> 
+            </changeDesc> 
+            <date isodate="2016-10-20"/> 
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName auth.uri="https://weber-gesamtausgabe.de/" codedval="A009001">Peter Stadler</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Automatically transformed to current schema version 2012 (2.0.0)</p> 
+            </changeDesc> 
+            <date isodate="2012-10-30"/> 
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName>AF</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Erstellen der Datei</p> 
+            </changeDesc> 
+            <date isodate="2011-03-05">5. März 2011</date> 
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName>Kristina Richts</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Transformation nach MEI 2013 und Integration der AskSam-Handschriften</p> 
+            </changeDesc> 
+            <date isodate="2014-03-25"/> 
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName>Kristina Richts</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Transformation nach MEI 2013 und Integration der AskSam-Drucke</p> 
+            </changeDesc> 
+            <date isodate="2014-03-25"/> 
+         </change> 
+         <change> 
+            <respStmt> 
+               <persName>Kristina Richts</persName> 
+            </respStmt> 
+            <changeDesc> 
+               <p>Transformation nach MEI 2013 und AskSam-Drucke wieder entfernt</p> 
+            </changeDesc> 
+            <date isodate="2014-04-03"/> 
+         </change> 
+      </revisionDesc> 
+   </meiHead> 
+   <music/> 
+</mei>
