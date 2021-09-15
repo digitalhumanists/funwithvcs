@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kodierung des Aufsatzes zur Korrespondenz zwischen Arnold Schoenberg und der
+               Universal-Edition</title>
+            <respStmt>
+               <name>Katharina Bleier</name>
+               <resp>TEI Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher><persName>Katharina Bleier</persName></publisher>
+            <date when="2021-05-11">11.05.2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title level="a">The Correspondence between Arnold Schoenberg and Universal
+                  Edition</title>
+               <author>Katharina Bleier</author>
+               <author>Therese Muxeneder</author>
+               <title level="j"><title type="main">Archival Notes. Sources and Research from the
+                     Institute of Music</title>, <title type="sub">No. 1 (2016): Musicians’
+                     Correspondence and Interaction between Archives</title></title><editor>Paolo
+                  Dal Molin</editor><publisher><orgName>Fondazione Giorgio
+                  Cini</orgName></publisher><pubPlace>Venezia</pubPlace><biblScope n="12">twelve
+                  pages</biblScope><date when="2016-11-03">2016-11-03</date><ref
+                  target="http://onlinepublishing.cini.it/index.php/arno/article/view/39/146"
+                  >onlinepublishing cini</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>The Correspondence between <persName>Arnold Schoenberg</persName> and
+                  <orgName>Universal Edition</orgName></head>
+            <div>
+               <cit>
+                  <quote>[...] publishers and authors cannot remain friends in the long run.</quote>
+                  <ref>Arnold Schönberg, Versuch eines Nachrufs für Her[t]zka, 1932 (Arnold
+                     Schönberg Center, Vienna [T05.39])</ref>
+               </cit>
+               <p>With the exception of Mahler’s letters, of which only a few have survived owing to
+                  considerable losses, and the Polish edition of Szymanowski’s correspondence, each
+                  of these editions has only published a selection. The criteria used to select
+                  correspondence for abridged editions are essentially based on the following
+                  components:</p>
+               <list rend="bulleted">
+                  <item>historical circumstances, e.g. a specific period in the composer’s
+                     life;</item>
+                  <item>author/recipient (for example, from the composer to the publisher and not
+                     vice versa);</item>
+                  <item>thematic, contextual focus:<list rend="numbered">
+                        <label>a)</label>
+                        <item>correspondence related to a specific work, or </item>
+                        <label>b)</label>
+                        <item>differing degrees of emphasis on aspects such as the genesis of the
+                           works and the performance history, and also aesthetic, political and
+                           biographical aspects as well as topics of cultural history. (This is
+                           coupled with a reduction of letters with financial and legal concerns and
+                           those relating to the production of scores.)</item>
+                     </list></item>
+               </list>
+               <p> The editorial standards of the different editions also vary greatly –
+                  rangingbetween those that are intended for a wide readership, and more highly
+                  detailed descriptions.</p>
+               <!--Tables-->
+               <table rows="5" cols="2">
+                  <head>TABLE 1.Correspondences between UE and composers published in book
+                     form</head>
+                  <row>
+                     <cell role="label">Karol Szymanowski ↔ UE </cell>
+                     <cell role="data">Między kompozytorem a wydawcą. Korespondencja Karola
+                        Szymanowskiego z Universal Edition, ed. by Teresa Chylińska, Kraków: Polskie
+                        Wydawnictwo Muzyczne, 1978. (591 letters, complete)<lb/>Karol Szymanowski,
+                        Briefwechsel mit der Universal Edition 1912–1937, ed. by Teresa Chylińska,
+                        Wien: Universal Edition A.G., 1981. (Selection)</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Leoš Janáček → UE</cell>
+                     <cell role="data">Leoš Janáček, Briefe an die Universal Edition, ed. by Ernst
+                        Hilmar, Tutzing: Hans Schneider, 1988. (350 letters, selection)</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Kurt Weill ↔ UE </cell>
+                     <cell role="data">Kurt Weill, Briefwechsel mit der Universal Edition, ed. by
+                        Nils Grosch, Stuttgart, Weimar: J. B. Metzler, 2002. (207 letters,
+                        selection)</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Ernst Krenek ↔ UE</cell>
+                     <cell role="data">Ernst Krenek, Briefwechsel mit der Universal Edition
+                        (1921–1941), ed. by Claudia Maurer-Zenck, Köln, Weimar, Wien: Böhlau, 2010.
+                        (1,298 letters, selection)</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Gustav Mahler → UE</cell>
+                     <cell role="data">stav Mahler, Briefe an seine Verleger, ed. by Franz
+                        Willnauer, Wien: Universal Edition A.G., 2012. (34 letters, complete)</cell>
+                  </row>
+               </table>
+
+
+               <div>
+                  <head>ARNOLD SCHOENBERG’S PUBLISHERS AND CORRESPONDENCE WITH PUBLISHERS</head>
+                  <p>The publishing houses connected with <persName>Schoenberg</persName> are
+                     located in Austria, Germany, Denmark and the USA – with the exception of
+                     Denmark, these are all countries in which the composer lived. While <orgName
+                        type="acronym">UE</orgName> in Vienna and Schirmer in New York were
+                        <persName>Schoenberg</persName>’s main publishers during his lifetime, after
+                     his death Schott Verlag in Mainz and above all Belmont Music Publishers in Los
+                     Angeles, which was founded by the composer’s widow, also played a significant
+                     role.</p>
+
+                  <p>Considering Arnold Schoenberg’s correspondence as a whole, we can see that he
+                     wrote a large proportion of his letters to publishers. Of the roughly 24,000
+                     letters known to us, correspondence with publishers constitutes about 12 per
+                     cent of the total (TABLE 3).</p>
+                  <table rows="3" cols="3">
+                     <head>TABLE 3. Arnold Schoenberg’s correspondence with publishers</head>
+                     <row>
+                        <cell role="label">Universal Edition, Vienna</cell>
+                        <cell role="data">1500 letters</cell>
+                        <cell role="data">1902–1951</cell>
+                     </row>
+                     <row>
+                        <cell role="label">Verlag Dreililien, Berlin</cell>
+                        <cell role="data">130 letters</cell>
+                        <cell role="data">1903–1933</cell>
+                     </row><row>
+                        <cell role="label">Tischer &amp; Jagenberg, Cologne</cell>
+                        <cell role="data">50 letters</cell>
+                        <cell role="data">1911–1947</cell>
+                     </row>
+                     <!--weitere Tabelleneinträge detto-->
+                  </table>
+                  <p>However, only 5 per cent of these letters have been published, not including
+                     the sections printed in the documentary volumes of the Arnold Schönberg
+                     Complete Edition. This is an astonishing figure if one considers the relevance
+                     of the letters’ contents for research concerning
+                        <persName>Schoenberg</persName>, especially since they contain discussions
+                     of enormously important issues pertaining to the works. About half of the
+                     letters exchanged between Schoenberg and publishers involve <orgName
+                        type="acronym">UE</orgName>.</p>
+                  <p>Some highly relevant letters exchanged between <persName>Schoenberg</persName>
+                     and <orgName type="acronym">UE</orgName>, as well as other printers, engravers
+                     (Breitkopf &amp; Härtel, Geidel) and copyists have not yet been fully
+                     researched. Another area to be explored is the correspondence between
+                        <persName>Schoenberg</persName> and his son <persName>Georg</persName>, who
+                     was employed as a copyist at <orgName type="acronym">UE</orgName> as of the
+                     late 1920s, in addition to a number of students who were taken on temporarily
+                     as editors at the publishing house, which could bring about a dramatic increase
+                     in the number of letters to be edited. As has been mentioned, licences for the
+                     works published by Verlag Dreililien in Berlin starting in 1903 were purchased
+                     by <orgName type="acronym">UE</orgName> and thus, broadly speaking, these works
+                     are to be considered <orgName type="acronym">UE</orgName> publications as well.
+                     This qualification has consequences for the contents of the edition of the
+                        <persName>Schoenberg</persName>–<orgName type="acronym">UE</orgName>
+                     letters. As the Dreililien and <orgName type="acronym">UE</orgName>
+                     correspondence overlaps in many places, we have decided to publish the letters
+                     exchanged between <persName>Schoenberg</persName> and Verlag Dreililien
+                     (represented by <persName>Max Marschalk</persName>) as an appendix to the
+                     edition, which increases the total number from 1,500 to 1,630 letters. In the
+                     spring of 1951, a few months before his death (on 13 July), <persName>Arnold
+                        Schoenberg</persName> arranged for his entire correspondence – the originals
+                     of letters written to him as well as his own letters in the form of drafts or
+                     carbon copies – to be deposited at the Library of Congress in Washington D.C.
+                     The comprehensive collection, comprising approximately 21,000 letters of
+                     <!--Table--> correspondence and 35,000 written pages, provides biographical
+                     documents aswell as information on Schoenberg’s artistic development. The
+                     letters also attest to a half-century of cultural and intellectual history. </p>
+
+                  <p>A not inconsiderable number of letters are currently considered missing; this
+                     applies above all to the letters exchanged between
+                        <persName>Schoenberg</persName> and <persName>Emil Hertzka</persName>, which
+                     were stored privately by the publisher. After his death in 1932, the letters
+                     remained in the possession of his widow <persName>Yella Hertzka</persName>, who
+                     emigrated to England when the Nazis seized power in Austria. Parts of
+                        <persName>Hertzka</persName>’s correspondence have been regarded as missing
+                     ever since.4 To date, nothing is known about the whereabouts of his
+                     correspondence with <persName>Schoenberg</persName>. For the correspondence
+                     between 1909 and approximately 1920 we are therefore dependent on the letters
+                     kept by <persName>Schoenberg</persName> himself; the sources improve from that
+                     date onwards. After <persName>Emil Hertzka</persName>’s death and following
+                        <persName>Schoenberg</persName>’s emigration to the USA he corresponded with
+                        <persName>Hertzka</persName>’s successors <persName>Yella
+                     Hertzka</persName>, <persName>Alfred Kalmus</persName>, <persName>Hans
+                        Heinsheimer</persName> and <persName>Alfred Schlee</persName>.</p>
+               </div>
+            </div>
+            <div>
+               <head>Notes</head><bibl>Arnold  Schönberg, Versuch  eines  Nachrufs  für  Her[t]zka,  1932  (Arnold  Schönberg  Center,  Vienna [T05.39]). 2      In  2011  the  estate  of  Arnold  Schoenberg  was  inscribed  on  the  UNESCO  ‘Memory  of  the  World’ Register. 3http://www.mdw.ac.at/i14/?PageId=3668 [18 March 2015]. 4      A  small  section,  the  letters  exchanged  between  Gustav  Mahler  and  Hertzka  were  purchased  by Hans Moldenhauer after the war. See Gustav Mahler, Briefe an seine Verleger, ed. by Franz Willnauer, Wien: Universal Edition A.G., 2012, p. 62.
+               </bibl>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>
