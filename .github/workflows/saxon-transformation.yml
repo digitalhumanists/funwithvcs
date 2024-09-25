@@ -4,7 +4,8 @@ jobs:
   xslt-transform:
     runs-on: ubuntu-latest
     steps:
-    - name: Set up JDK 11
+     uses: actions/checkout@v4
+    - name: XSLT Transformation
       uses: pl-strflt/saxon@v1
       env:
         INPUT_INPUT: junit.xml
