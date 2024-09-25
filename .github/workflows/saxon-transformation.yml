@@ -1,7 +1,12 @@
-name: GitHub Actions Demo
+name: XSLT Transformation
 on: [push]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: rafagc/saxonhe
-    steps:
-      - run: echo "testing xslt transformation"
+runs:
+  using: 'composite'
+  steps:
+      uses: pl-strflt/saxon@v1
+      env:
+        INPUT_INPUT: junit.xml
+        INPUT_OUTPUT: 
+      with:
+        args: -s:$INPUT_INPUT -xsl:/etc/junit-frames-saxon.xsl output.dir=/github/workspace/$INPUT_OUTPUT
+  
