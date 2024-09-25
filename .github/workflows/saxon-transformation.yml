@@ -3,11 +3,12 @@ on: [push]
 jobs:
   xslt-transform:
     runs-on: ubuntu-latest
-  steps:
-      uses: pl-strflt/saxon@v1
-      env:
-        INPUT_INPUT: junit.xml
-        INPUT_OUTPUT: 
-      with:
-        args: -s:$INPUT_INPUT -xsl:/etc/junit-frames-saxon.xsl output.dir=/github/workspace/$INPUT_OUTPUT
-  
+    steps:
+         - name: Set up JDK 11
+          uses: pl-strflt/saxon@v1
+          env:
+            INPUT_INPUT: junit.xml
+            INPUT_OUTPUT: 
+          with:
+            args: -s:$INPUT_INPUT -xsl:/etc/junit-frames-saxon.xsl output.dir=/github/workspace/$INPUT_OUTPUT
+    
