@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suites">
+  <testsuite skipped="1" errors="0" failures="1" tests="3" package="pkg" name="test1" time="0.050" timestamp="2023-02-28T12:00:00Z">
+    <testcase name="skipped" classname="cls">
+      <skipped/>
+    </testcase>
+    <testcase name="failed" classname="cls">
+      <failure>failure</failure>
+    </testcase>
+    <testcase name="succeeded" classname="cls">
+      <system-out>stdout</system-out>
+      <system-err>stderr</system-err>
+    </testcase>
+    <system-out>stdout</system-out>
+    <system-err>stderr</system-err>
+  </testsuite>
+  <testsuite skipped="0" errors="1" failures="0" tests="2" package="pkg" name="test2" time="0.050" timestamp="2023-02-28T12:00:00Z">
+    <testcase name="errored" classname="cls">
+      <error>error</error>
+    </testcase>
+    <testcase name="succeeded" classname="cls">
+      <system-out>stdout</system-out>
+      <system-err>stderr</system-err>
+    </testcase>
+  </testsuite>
+  <testsuite skipped="0" errors="0" failures="0" tests="1" package="pkg" name="test3" time="0.050" timestamp="2023-02-28T12:00:00Z">
+    <testcase name="succeeded" classname="cls">
+    </testcase>
+    <system-out>stdout</system-out>
+    <system-err>stderr</system-err>
+  </testsuite>
+</testsuites>
