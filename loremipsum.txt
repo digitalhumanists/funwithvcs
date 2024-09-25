@@ -1,4 +1,13 @@
+<<<<<<< HEAD
+Geändert von Katrin 25.9.24 14:50
+
+
+
+
+orem epsom dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+=======
 Lorem epsom dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. – Hä, was soll das denn heißen?
+>>>>>>> 73fab8c8847c977fa1746bbf91173245d4965bc8
 At vero eos et accusam et justo duo dolores et ea rebum. 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
