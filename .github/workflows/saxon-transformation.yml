@@ -1,7 +1,8 @@
 name: XSLT Transformation
 on: [push]
-runs:
-  using: 'composite'
+jobs:
+  xslt-transform:
+    runs-on: ubuntu-latest
   steps:
       uses: pl-strflt/saxon@v1
       env:
