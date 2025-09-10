@@ -4,5 +4,6 @@ Kuchenrezept
 - Mehl
 - Zucker
 - Eier 
+- Vanille
 - Butter
 - Schokolade
