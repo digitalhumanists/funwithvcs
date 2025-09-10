@@ -1,6 +1,7 @@
 Kuchenrezept 
 
 
+
 - Mehl
 - Zucker
 - Eier 
@@ -10,3 +11,9 @@ Kuchenrezept
 - Schokolade
 - Magerquark
 - gefrorene Himbeeren
+- Blaubeeren
+- Cream Cheese
+- Öl
+- Mandelmehl
+- Ei 
+
