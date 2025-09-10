@@ -1,5 +1,4 @@
-Kuchenrezept 
-
+Bowle-Rezept 
 
 - Limonade
 - Erdbeeren
@@ -7,3 +6,4 @@ Kuchenrezept
 - Rumkirschen 
 - Sekt
 - Sternanis
+- Ananassaft
