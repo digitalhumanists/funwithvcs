@@ -1,4 +1,4 @@
-Kuchenrezept 
+Bowle-Rezept 
 
 
 - Limonade
@@ -7,3 +7,4 @@ Kuchenrezept
 - Rumkirschen 
 - Sekt
 - Sternanis
+- Minze
