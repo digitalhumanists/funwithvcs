@@ -1,5 +1,6 @@
 Kuchenrezept 
 
+1. einkaufen
 
 - ❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
 - Süßstoff
@@ -15,3 +16,7 @@ Kuchenrezept
 - Mandelmehl
 - Ei 
 
+2. backen
+3. essen
+
+(order matters)
