@@ -1,8 +1,9 @@
 Kuchenrezept 
 
+1. einkaufen
 
 - ❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
-- Süßstoff
+- Süßstoff (Was für Süssstoff?)
 - Eier 
 - Nutella
 - 0,5 kg Butter
@@ -16,3 +17,7 @@ Kuchenrezept
 - Ei 
 
 - patate
+2. backen
+3. essen
+
+(order matters)
