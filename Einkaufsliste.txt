@@ -1,4 +1,4 @@
-Einkaufsliste neu
+Einkaufsliste
 
 Eier
 Schmalz
@@ -17,3 +17,8 @@ noch mehr Butter
 RohrOhrZucker
 Mehl
 Backpulver
+Knoblauchöl
+Burrata
+Spaghetti
+Tomaten
+Salz
