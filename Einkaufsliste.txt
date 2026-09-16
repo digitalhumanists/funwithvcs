@@ -27,3 +27,6 @@ Salz
 Glutamat-Pulver
 Tabletten gegen Sodbrennen
 Backpulver
+Burrata
+Spaghetti
+Tomaten
